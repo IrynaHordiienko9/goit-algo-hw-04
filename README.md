@@ -1,0 +1,28 @@
+##### Theoretical comparison
+
+Algorithm | Medium difficulty | Worst case | The best case
+:---------|:------------------|:---------|:---------|
+Merge sort | O(nlog n) | O(nlog n) | O(nlog n)
+Insertion sort| O(n2)| O(n2)| O(n)
+Timsort| O(nlog n)| O(nlog n)| O(n)
+
+
+
+##### Empirical results 
+
+Array size | Merge Sort (с) | Insertion Sort (с) | Timsort (с)
+:---------|:------------------|:---------|:---------|
+1000 | 0.00098 | 0.01135 | 0.00007
+5000| 0.00585| 0.28689| 0.00040
+10000| 0.01298| 1.15353| 0.00087
+
+
+##### Conclusions
+
+__Timsort__ набагато ефективніший за Merge Sort і Insertion Sort, особливо на великих масивах.						
+__Insertion Sort__ підходить для малих або майже відсортованих масивів, на великих — дуже повільний.						
+__Merge Sort__ добре масштабується, але все одно програє Timsort.						
+                        
+                        
+Емпіричні дані підтверджують теоретичні оцінки: 						
+__Timsort__ — найефективніший для сортування великих масивів, і саме тому він використовується у стандартних бібліотеках Python.						
