@@ -1,20 +1,21 @@
+
 ### Theoretical comparison
 
-Algorithm | Medium difficulty | Worst case | The best case
-:---------|:------------------|:---------|:---------|
-Merge sort | O(nlog n) | O(nlog n) | O(nlog n)
-Insertion sort| O(n2)| O(n2)| O(n)
-Timsort| O(nlog n)| O(nlog n)| O(n)
+Algorithm      | Medium difficulty | Worst case | The best case
+:--------------|:------------------|:-----------|:-------------|
+Merge sort     |   O(nlog n)       |  O(nlog n) |   O(nlog n)
+Insertion sort |   O(n2)           |  O(n2)     |   O(n)
+Timsort        |   O(nlog n)       |  O(nlog n) |   O(n)
 
 
 
 ### Empirical results 
 
 Array size | Merge Sort (с) | Insertion Sort (с) | Timsort (с)
-:---------|:------------------|:---------|:---------|
-1000 | 0.00098 | 0.01135 | 0.00007
-5000| 0.00585| 0.28689| 0.00040
-10000| 0.01298| 1.15353| 0.00087
+:----------|:---------------|:-------------------|:-----------|
+1000       |    0.00098     |    0.01135         |   0.00007
+5000       |    0.00585     |    0.28689         |   0.00040
+10000      |    0.01298     |    1.15353         |   0.00087
 
 
 ### Conclusions
