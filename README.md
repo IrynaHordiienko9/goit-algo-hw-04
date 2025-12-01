@@ -1,4 +1,4 @@
-##### Theoretical comparison
+### Theoretical comparison
 
 Algorithm | Medium difficulty | Worst case | The best case
 :---------|:------------------|:---------|:---------|
@@ -8,7 +8,7 @@ Timsort| O(nlog n)| O(nlog n)| O(n)
 
 
 
-##### Empirical results 
+### Empirical results 
 
 Array size | Merge Sort (с) | Insertion Sort (с) | Timsort (с)
 :---------|:------------------|:---------|:---------|
@@ -17,7 +17,7 @@ Array size | Merge Sort (с) | Insertion Sort (с) | Timsort (с)
 10000| 0.01298| 1.15353| 0.00087
 
 
-##### Conclusions
+### Conclusions
 
 __Timsort__ набагато ефективніший за Merge Sort і Insertion Sort, особливо на великих масивах.	
 
