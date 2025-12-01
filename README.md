@@ -19,8 +19,10 @@ Array size | Merge Sort (с) | Insertion Sort (с) | Timsort (с)
 
 ##### Conclusions
 
-__Timsort__ набагато ефективніший за Merge Sort і Insertion Sort, особливо на великих масивах.						
-__Insertion Sort__ підходить для малих або майже відсортованих масивів, на великих — дуже повільний.						
+__Timsort__ набагато ефективніший за Merge Sort і Insertion Sort, особливо на великих масивах.	
+
+__Insertion Sort__ підходить для малих або майже відсортованих масивів, на великих — дуже повільний.
+
 __Merge Sort__ добре масштабується, але все одно програє Timsort.						
                         
                         
